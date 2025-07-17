@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Warehouse Management System (WMS)
 
 A comprehensive Warehouse Management System that handles SKU mapping, sales data processing, and analytics visualization.
@@ -116,3 +117,6 @@ A comprehensive Warehouse Management System that handles SKU mapping, sales data
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+=======
+# warehouse_management_system
+>>>>>>> cfc41021243b812cb6c887362f80ac513d8f8f7c
