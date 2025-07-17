@@ -1,0 +1,35 @@
+# SKU Validation Rules
+sku_validation_rules:
+  min_length: 3
+  max_length: 50
+  allowed_characters: "[A-Za-z0-9-_]"
+  prefix_patterns:
+    - "GLD"
+    - "SLV"
+    - "PRD"
+
+# Database Configuration
+database:
+  type: "postgresql"
+  host: "localhost"
+  port: 5432
+  name: "wms_db"
+  schema: "public"
+
+# Data Processing Settings
+processing:
+  batch_size: 1000
+  max_workers: 4
+  timeout_seconds: 300
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/wms.log"
+
+# API Settings
+api:
+  version: "v1"
+  rate_limit: 100
+  timeout_seconds: 30
